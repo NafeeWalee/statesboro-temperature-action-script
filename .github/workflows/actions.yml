@@ -2,8 +2,8 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '*/1 * * * *' # every minute
-    #- cron: '* */12 * * *' # every 12 hours
+    #- cron: '*/1 * * * *' # every minute
+    - cron: '* */12 * * *' # every 12 hours
 
 
 jobs:
